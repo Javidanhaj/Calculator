@@ -8,6 +8,28 @@
 </head>
 <body>
     
+    <div id="calc">
+        <input id="area" readonly>
+        <div id="buttons">
+            <button id="operation" onclick="addArea('+')">+</button>
+            <button onclick="addArea('7')">7</button>
+            <button onclick="addArea('8')">8</button>
+            <button onclick="addArea('9')">9</button>
+            <button id="operation" onclick="addArea('-')">-</button>
+            <button onclick="addArea('4')">4</button>
+            <button onclick="addArea('5')">5</button>
+            <button onclick="addArea('6')">6</button>
+            <button id="operation" onclick="addArea('*')">*</button>
+            <button onclick="addArea('1')">1</button>
+            <button onclick="addArea('2')">2</button>
+            <button onclick="addArea('3')">3</button>
+            <button id="operation" onclick="addArea('/')">/</button>
+            <button onclick="addArea('0')">0</button>
+            <button onclick="addArea('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button  id="operation" onclick="clearArea()">C</button>
+        </div>
+    </div>
 
     <script src="index.js"></script>
 </body>
